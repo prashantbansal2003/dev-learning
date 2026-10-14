@@ -1,0 +1,15 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Secrets and local config
+.env
+.env.*
+
+# Logs and build output
+*.log
+dist/
+build/
