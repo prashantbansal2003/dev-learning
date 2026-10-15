@@ -40,3 +40,5 @@ node week1/day1/scripts/hello.js
 ## Contact
 
 Built by [Prashant Bansal](https://github.com/prashantbansal2003).
+
+## License
