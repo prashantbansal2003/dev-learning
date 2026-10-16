@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practical page for html form" />
+    <title>Form Page</title>
+  </head>
+  <body>
+    <main>
+      <h1>Form</h1>
+
+      <form action="#" method="get">
+        <fieldset>
+          <legend>About you</legend>
+          <p>
+            <label for="fullname">Full name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              autocomplete="name"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              required
+            />
+          </p>
+          <p>
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>How should we reply?</legend>
+          <p>
+            <input
+              type="radio"
+              id="via-email"
+              name="reply"
+              value="email"
+              checked
+            />
+            <label for="via-email">By email</label>
+          </p>
+          <p>
+            <input type="radio" id="via-phone" name="reply" value="phone" />
+            <label for="via-phone">By phone</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic" required>
+            <option value="">Choose one</option>
+            <option value="question">Question</option>
+            <option value="feedback">Feedback</option>
+            <option value="collab">Collaboration</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message (at least 20 characters)</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            minlength="20"
+            required
+          ></textarea>
+        </p>
+
+        <p>
+          <input type="checkbox" id="updates" name="updates" value="yes" />
+          <label for="updates">Send me occasional updates</label>
+        </p>
+
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </form>
+    </main>
+  </body>
+</html>
