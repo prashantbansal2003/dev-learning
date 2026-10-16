@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A practice page for HTML layout." />
+    <title>Layout Page</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">My Blog</a>
+      <nav aria-label="primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1>Learning Git</h1>
+        <p>Published <time datetime="2026-10-15">15 October 2026</time></p>
+        <p>Git records snapshots of my project.</p>
+        <section>
+          <h2>Why branches?</h2>
+          <p>Branches let me experiment safely.</p>
+        </section>
+      </article>
+
+      <aside aria-labelledby="related-heading">
+        <h2 id="related-heading">Related links</h2>
+        <ul>
+          <li><a href="#">Pro Git book</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p><small>&copy; 2026 Prashant Bansal</small></p>
+    </footer>
+  </body>
+</html>
