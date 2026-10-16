@@ -1,3 +1,5 @@
+## Questions and Answers
+
 - **Why is the aside inside main?**
   The `<aside>` is inside `<main>` because its content (related links about Git) is tangentially related to the primary content of the page (the article about learning Git).
 
@@ -15,3 +17,12 @@
 
 - **why server-side validation is still needed?**
   Server-side validation is still needed because client-side validation can be easily bypassed, disabled, or manipulated by users, meaning security and data integrity must always be enforced on the server.
+
+## Lighthouse Accessibility Scores
+
+| Page          | Score | Issues Found                                         |
+| :------------ | :---: | :--------------------------------------------------- |
+| `basics.html` |  93   | Touch targets do not have sufficient size or spacing |
+| `table.html`  |  100  | None                                                 |
+| `form.html`   |  100  | None                                                 |
+| `layout.html` |  94   | Touch targets do not have sufficient size or spacing |
