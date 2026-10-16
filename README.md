@@ -16,12 +16,13 @@ Git and GitHub, VS Code, Node.js and npm, the terminal (Git Bash).
 
 ## Structure
 
-| Week     | Folder       | Topic                                |
-| -------- | ------------ | ------------------------------------ |
-| 1, Day 1 | `week1/day1` | Environment, terminal, first scripts |
-| 1, Day 2 | `week1/day2` | Git fundamentals, first push         |
-| 1, Day 3 | `week1/day3` | Branching, merging, pull requests    |
-| 1, Day 4 | `week1/day4` | Merge conflicts, stash, README       |
+| Week     | Folder       | Topic                                        |
+| -------- | ------------ | -------------------------------------------- |
+| 1, Day 1 | `week1/day1` | Environment, terminal, first scripts         |
+| 1, Day 2 | `week1/day2` | Git fundamentals, first push                 |
+| 1, Day 3 | `week1/day3` | Branching, merging, pull requests            |
+| 1, Day 4 | `week1/day4` | Merge conflicts, stash, README               |
+| 1, Day 5 | `week1/day5` | Semantic HTML5, forms, tables, accessibility |
 
 ## Getting started
 
